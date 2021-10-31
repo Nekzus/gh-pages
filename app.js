@@ -124,28 +124,28 @@ imprimirCarritoEnHtml(carritoProductos); // Se imprime en el cuerpo de la tabla 
 btnCarro1.addEventListener("click", (e) => { // Llamado ingreso de items mediante click del boton en el HTML (agregar a carrito).
   e.preventDefault();
   cantidad = contarRepeticion(1).length + 1; // Se obtiene la cantidad del producto en el carrito.
-    const item1 = new Carrito("Battlefield 2042", 1, 2800, cantidad, 'PS4', "/assets/img/battlefield-2042.jpg"); // Nuevo objeto creado.
+    const item1 = new Carrito("Battlefield 2042", 1, 2800, cantidad, 'PS4', "assets/img/battlefield-2042.jpg"); // Nuevo objeto creado.
   ingresoCarrito(item1); // Se ingresa el item al carrito
   //
 }); // Cierre alcance ejecución boton de ingreso de item en el HTML.
 btnCarro2.addEventListener("click", (e) => {// Llamado ingreso de items mediante click del boton en el HTML (agregar a carrito).
   e.preventDefault();
   cantidad = contarRepeticion(2).length + 1; // Se obtiene la cantidad del producto en el carrito.
-    const item2 = new Carrito("Blue Protocol", 2, 2000, cantidad, 'PC', "/assets/img/blue-protocol.jpg"); // Nuevo objeto creado.
+    const item2 = new Carrito("Blue Protocol", 2, 2000, cantidad, 'PC', "assets/img/blue-protocol.jpg"); // Nuevo objeto creado.
   ingresoCarrito(item2); // Se ingresa el item al carrito
   //
 }); // Cierre alcance ejecución boton de ingreso de item en el HTML.
 btnCarro3.addEventListener("click", (e) => { // Llamado ingreso de items mediante click del boton en el HTML (agregar a carrito).
   e.preventDefault();
   cantidad = contarRepeticion(3).length + 1; // Se obtiene la cantidad del producto en el carrito.
-    const item3 = new Carrito("Halo Infinite", 3, 2500, cantidad, 'XBOX', "/assets/img/halo-infinite.jpg"); // Nuevo objeto creado.
+    const item3 = new Carrito("Halo Infinite", 3, 2500, cantidad, 'XBOX', "assets/img/halo-infinite.jpg"); // Nuevo objeto creado.
   ingresoCarrito(item3); // Se ingresa el item al carrito
   //
 }); // Cierre alcance ejecución boton de ingreso de item en el HTML.
 btnCarro4.addEventListener("click", (e) => { // Llamado ingreso de items mediante click del boton en el HTML (agregar a carrito).
   e.preventDefault();
   cantidad = contarRepeticion(4).length + 1; // Se obtiene la cantidad del producto en el carrito.
-    const item4 = new Carrito("Elden Ring", 4, 2800, cantidad, 'PC', "/assets/img/elden-ring.jpg"); // Nuevo objeto creado.
+    const item4 = new Carrito("Elden Ring", 4, 2800, cantidad, 'PC', "assets/img/elden-ring.jpg"); // Nuevo objeto creado.
   ingresoCarrito(item4); // Se ingresa el item al carrito
 
 }); // Cierre alcance ejecución boton de ingreso de item en el HTML.
