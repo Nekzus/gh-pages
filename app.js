@@ -51,6 +51,7 @@ const imprimirCarritoEnHtml = () => {
     productos = document.createElement("tr");
     productos.innerHTML = `<th scope="row"><img class="img-fluid" src=${item.portada} width="70rem"></th>
                                 <td class="text-sm">${item.titulo}</td>
+                                <td class="text-sm">${item.plataforma}</td>
                                 <td class="number-sm">${item.cantidad}</td>
                                 <td class="number-sm">$${precioCantidad}</td>
                                 <td><button id="${item.codigo}" type="button" class="borrar btn btn-danger btn-sm">X</button></td>`; // Se agrega botón para eliminar item. Se agrega el codigo del item para su posterior borrado.
